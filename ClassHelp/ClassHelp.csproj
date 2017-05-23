@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -59,7 +60,7 @@
     <Compile Include="HelpClass\TimeHelp.cs" />
     <Compile Include="MethodKeep\baseMethod.cs" />
     <Compile Include="MethodKeep\EntityConnectionString.cs" />
-    <Compile Include="MethodKeep\sqlHelpMethod.cs" />
+    <Compile Include="MethodKeep\SqlBulkCopyUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
