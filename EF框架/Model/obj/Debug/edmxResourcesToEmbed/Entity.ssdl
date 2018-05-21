@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BaseDomeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SysButtonInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="perId" Type="int" Nullable="false" />
+    <Property Name="buttonName" Type="varchar" MaxLength="50" />
+    <Property Name="iconClassName" Type="varchar" MaxLength="50" />
+    <Property Name="methodName" Type="varchar" MaxLength="50" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysErrorLogInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="50" />
+    <Property Name="logLevel" Type="varchar" MaxLength="50" />
+    <Property Name="logMessage" Type="varchar(max)" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysLoginLogInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="50" />
+    <Property Name="loginIp" Type="varchar" MaxLength="50" />
+    <Property Name="loginCity" Type="varchar" MaxLength="50" />
+    <Property Name="loginTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysOperLogInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="50" />
+    <Property Name="operMessage" Type="varchar" MaxLength="200" />
+    <Property Name="operTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysPermissonInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="parentId" Type="int" Nullable="false" />
+    <Property Name="menuName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="areaName" Type="varchar" MaxLength="50" />
+    <Property Name="controllerName" Type="varchar" MaxLength="50" />
+    <Property Name="actionName" Type="varchar" MaxLength="50" />
+    <Property Name="iconClassName" Type="varchar" MaxLength="50" />
+    <Property Name="remarkContent" Type="varchar" MaxLength="200" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="sortFlag" Type="int" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysRoleButtonInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleId" Type="int" Nullable="false" />
+    <Property Name="buttonId" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SysRoleInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="roleRemark" Type="varchar" MaxLength="100" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysRolePerInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleId" Type="int" Nullable="false" />
+    <Property Name="perId" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SysUserInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userAccount" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="userPwd" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="userRealName" Type="varchar" MaxLength="20" />
+    <Property Name="userSex" Type="int" />
+    <Property Name="userPhone" Type="varchar" MaxLength="50" />
+    <Property Name="userRemark" Type="varchar" MaxLength="500" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+  </EntityType>
+  <EntityType Name="SysUserRoleInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="roleId" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="BaseDomeModelStoreContainer">
+    <EntitySet Name="SysButtonInfor" EntityType="Self.SysButtonInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysErrorLogInfor" EntityType="Self.SysErrorLogInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysLoginLogInfor" EntityType="Self.SysLoginLogInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysOperLogInfor" EntityType="Self.SysOperLogInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysPermissonInfor" EntityType="Self.SysPermissonInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysRoleButtonInfor" EntityType="Self.SysRoleButtonInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysRoleInfor" EntityType="Self.SysRoleInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysRolePerInfor" EntityType="Self.SysRolePerInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysUserInfor" EntityType="Self.SysUserInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysUserRoleInfor" EntityType="Self.SysUserRoleInfor" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

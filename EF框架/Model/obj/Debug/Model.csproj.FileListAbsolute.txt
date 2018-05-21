@@ -1,0 +1,22 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\缓存\Model\bin\Debug\Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\缓存\Model\bin\Debug\Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\缓存\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\缓存\Model\obj\Debug\Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\缓存\Model\obj\Debug\Model.pdb
+C:\Users\Administrator\Desktop\缓存\Model\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\缓存\Model\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\缓存\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\缓存\Model\obj\Debug\Model.dll
+C:\Users\Administrator\Desktop\缓存\Model\obj\Debug\Model.pdb
+E:\SVN在线项目\dome\Model\bin\Debug\Model.dll.config
+E:\SVN在线项目\dome\Model\bin\Debug\Model.dll
+E:\SVN在线项目\dome\Model\bin\Debug\Model.pdb
+E:\SVN在线项目\dome\Model\bin\Debug\EntityFramework.dll
+E:\SVN在线项目\dome\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\SVN在线项目\dome\Model\bin\Debug\EntityFramework.xml
+E:\SVN在线项目\dome\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\SVN在线项目\dome\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\SVN在线项目\dome\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\SVN在线项目\dome\Model\obj\Debug\Model.dll
+E:\SVN在线项目\dome\Model\obj\Debug\Model.pdb
+E:\SVN在线项目\dome\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

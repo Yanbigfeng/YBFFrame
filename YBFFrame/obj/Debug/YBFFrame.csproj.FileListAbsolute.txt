@@ -1,0 +1,6 @@
+E:\线下处理项目\框架搭建\YBFFrame\YBFFrame\bin\Debug\YBFFrame.exe.config
+E:\线下处理项目\框架搭建\YBFFrame\YBFFrame\bin\Debug\YBFFrame.exe
+E:\线下处理项目\框架搭建\YBFFrame\YBFFrame\bin\Debug\YBFFrame.pdb
+E:\线下处理项目\框架搭建\YBFFrame\YBFFrame\obj\Debug\YBFFrame.csproj.CoreCompileInputs.cache
+E:\线下处理项目\框架搭建\YBFFrame\YBFFrame\obj\Debug\YBFFrame.exe
+E:\线下处理项目\框架搭建\YBFFrame\YBFFrame\obj\Debug\YBFFrame.pdb

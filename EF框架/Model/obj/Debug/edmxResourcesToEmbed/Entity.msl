@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BaseDomeModelStoreContainer" CdmEntityContainer="BaseDomeEntities">
+    <EntitySetMapping Name="SysButtonInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysButtonInfor">
+        <MappingFragment StoreEntitySet="SysButtonInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="perId" ColumnName="perId" />
+          <ScalarProperty Name="buttonName" ColumnName="buttonName" />
+          <ScalarProperty Name="iconClassName" ColumnName="iconClassName" />
+          <ScalarProperty Name="methodName" ColumnName="methodName" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysErrorLogInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysErrorLogInfor">
+        <MappingFragment StoreEntitySet="SysErrorLogInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="logLevel" ColumnName="logLevel" />
+          <ScalarProperty Name="logMessage" ColumnName="logMessage" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysLoginLogInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysLoginLogInfor">
+        <MappingFragment StoreEntitySet="SysLoginLogInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="loginIp" ColumnName="loginIp" />
+          <ScalarProperty Name="loginCity" ColumnName="loginCity" />
+          <ScalarProperty Name="loginTime" ColumnName="loginTime" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysOperLogInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysOperLogInfor">
+        <MappingFragment StoreEntitySet="SysOperLogInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="operMessage" ColumnName="operMessage" />
+          <ScalarProperty Name="operTime" ColumnName="operTime" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysPermissonInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysPermissonInfor">
+        <MappingFragment StoreEntitySet="SysPermissonInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="parentId" ColumnName="parentId" />
+          <ScalarProperty Name="menuName" ColumnName="menuName" />
+          <ScalarProperty Name="areaName" ColumnName="areaName" />
+          <ScalarProperty Name="controllerName" ColumnName="controllerName" />
+          <ScalarProperty Name="actionName" ColumnName="actionName" />
+          <ScalarProperty Name="iconClassName" ColumnName="iconClassName" />
+          <ScalarProperty Name="remarkContent" ColumnName="remarkContent" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="sortFlag" ColumnName="sortFlag" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysRoleButtonInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysRoleButtonInfor">
+        <MappingFragment StoreEntitySet="SysRoleButtonInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="buttonId" ColumnName="buttonId" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysRoleInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysRoleInfor">
+        <MappingFragment StoreEntitySet="SysRoleInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roleName" ColumnName="roleName" />
+          <ScalarProperty Name="roleRemark" ColumnName="roleRemark" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysRolePerInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysRolePerInfor">
+        <MappingFragment StoreEntitySet="SysRolePerInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="perId" ColumnName="perId" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysUserInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysUserInfor">
+        <MappingFragment StoreEntitySet="SysUserInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userAccount" ColumnName="userAccount" />
+          <ScalarProperty Name="userPwd" ColumnName="userPwd" />
+          <ScalarProperty Name="userRealName" ColumnName="userRealName" />
+          <ScalarProperty Name="userSex" ColumnName="userSex" />
+          <ScalarProperty Name="userPhone" ColumnName="userPhone" />
+          <ScalarProperty Name="userRemark" ColumnName="userRemark" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysUserRoleInfor">
+      <EntityTypeMapping TypeName="BaseDomeModel.SysUserRoleInfor">
+        <MappingFragment StoreEntitySet="SysUserRoleInfor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

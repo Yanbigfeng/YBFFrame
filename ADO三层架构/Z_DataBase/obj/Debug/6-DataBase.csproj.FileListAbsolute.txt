@@ -1,0 +1,17 @@
+D:\test\QuartzMVC\Z_DataBase\bin\Debug\Z_DataBase.dll
+D:\test\QuartzMVC\Z_DataBase\bin\Debug\Z_DataBase.pdb
+D:\test\QuartzMVC\Z_DataBase\obj\Debug\6-DataBase.csprojResolveAssemblyReference.cache
+D:\test\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.dll
+D:\test\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.pdb
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\Z_DataBase\bin\Debug\Z_DataBase.dll
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\Z_DataBase\bin\Debug\Z_DataBase.pdb
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\Z_DataBase\obj\Debug\6-DataBase.csprojResolveAssemblyReference.cache
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\Z_DataBase\obj\Debug\6-DataBase.csproj.CoreCompileInputs.cache
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.dll
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.pdb
+E:\线下处理项目\框架搭建\YBFFrame\Z_DataBase\bin\Debug\Z_DataBase.dll
+E:\线下处理项目\框架搭建\YBFFrame\Z_DataBase\bin\Debug\Z_DataBase.pdb
+E:\线下处理项目\框架搭建\YBFFrame\Z_DataBase\obj\Debug\6-DataBase.csprojResolveAssemblyReference.cache
+E:\线下处理项目\框架搭建\YBFFrame\Z_DataBase\obj\Debug\6-DataBase.csproj.CoreCompileInputs.cache
+E:\线下处理项目\框架搭建\YBFFrame\Z_DataBase\obj\Debug\Z_DataBase.dll
+E:\线下处理项目\框架搭建\YBFFrame\Z_DataBase\obj\Debug\Z_DataBase.pdb

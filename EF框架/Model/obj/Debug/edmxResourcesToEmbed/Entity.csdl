@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BaseDomeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SysButtonInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="perId" Type="Int32" Nullable="false" />
+    <Property Name="buttonName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="iconClassName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="methodName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysErrorLogInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="logLevel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="logMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysLoginLogInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="loginIp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="loginCity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="loginTime" Type="DateTime" Precision="3" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysOperLogInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="operMessage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="operTime" Type="DateTime" Precision="3" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysPermissonInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="parentId" Type="Int32" Nullable="false" />
+    <Property Name="menuName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="areaName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="controllerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="actionName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="iconClassName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="remarkContent" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+    <Property Name="sortFlag" Type="Int32" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysRoleButtonInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="roleId" Type="Int32" Nullable="false" />
+    <Property Name="buttonId" Type="Int32" Nullable="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SysRoleInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="roleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="roleRemark" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysRolePerInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="roleId" Type="Int32" Nullable="false" />
+    <Property Name="perId" Type="Int32" Nullable="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SysUserInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userAccount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userPwd" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userRealName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="userSex" Type="Int32" />
+    <Property Name="userPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="userRemark" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+    <Property Name="delFlag" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysUserRoleInfor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="roleId" Type="Int32" Nullable="false" />
+    <Property Name="addTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="BaseDomeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SysButtonInfor" EntityType="Self.SysButtonInfor" />
+    <EntitySet Name="SysErrorLogInfor" EntityType="Self.SysErrorLogInfor" />
+    <EntitySet Name="SysLoginLogInfor" EntityType="Self.SysLoginLogInfor" />
+    <EntitySet Name="SysOperLogInfor" EntityType="Self.SysOperLogInfor" />
+    <EntitySet Name="SysPermissonInfor" EntityType="Self.SysPermissonInfor" />
+    <EntitySet Name="SysRoleButtonInfor" EntityType="Self.SysRoleButtonInfor" />
+    <EntitySet Name="SysRoleInfor" EntityType="Self.SysRoleInfor" />
+    <EntitySet Name="SysRolePerInfor" EntityType="Self.SysRolePerInfor" />
+    <EntitySet Name="SysUserInfor" EntityType="Self.SysUserInfor" />
+    <EntitySet Name="SysUserRoleInfor" EntityType="Self.SysUserRoleInfor" />
+  </EntityContainer>
+</Schema>

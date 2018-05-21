@@ -1,0 +1,16 @@
+D:\test\QuartzMVC\4-Model\bin\Debug\4-Model.dll
+D:\test\QuartzMVC\4-Model\bin\Debug\4-Model.pdb
+D:\test\QuartzMVC\4-Model\obj\Debug\4-Model.csprojResolveAssemblyReference.cache
+D:\test\QuartzMVC\4-Model\obj\Debug\4-Model.dll
+D:\test\QuartzMVC\4-Model\obj\Debug\4-Model.pdb
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\4-Model\bin\Debug\4-Model.dll
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\4-Model\bin\Debug\4-Model.pdb
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\4-Model\obj\Debug\4-Model.csprojResolveAssemblyReference.cache
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\4-Model\obj\Debug\4-Model.csproj.CoreCompileInputs.cache
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\4-Model\obj\Debug\4-Model.dll
+C:\Users\寒风凌云\Desktop\QuartzMVC\QuartzMVC\4-Model\obj\Debug\4-Model.pdb
+E:\线下处理项目\框架搭建\YBFFrame\4-Model\bin\Debug\4-Model.dll
+E:\线下处理项目\框架搭建\YBFFrame\4-Model\bin\Debug\4-Model.pdb
+E:\线下处理项目\框架搭建\YBFFrame\4-Model\obj\Debug\4-Model.csproj.CoreCompileInputs.cache
+E:\线下处理项目\框架搭建\YBFFrame\4-Model\obj\Debug\4-Model.dll
+E:\线下处理项目\框架搭建\YBFFrame\4-Model\obj\Debug\4-Model.pdb

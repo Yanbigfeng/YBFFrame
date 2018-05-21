@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelModelStoreContainer" CdmEntityContainer="DataModelEntities">
+    <EntitySetMapping Name="TestInfors">
+      <EntityTypeMapping TypeName="DataModelModel.TestInfors">
+        <MappingFragment StoreEntitySet="TestInfors">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="VersionNum" ColumnName="VersionNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,5 @@
+D:\test\QuartzMVC\Z_DataBase\bin\Debug\Z_DataBase.dll
+D:\test\QuartzMVC\Z_DataBase\bin\Debug\Z_DataBase.pdb
+D:\test\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.dll
+D:\test\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.pdb
+D:\test\QuartzMVC\Z_DataBase\obj\Debug\Z_DataBase.csprojResolveAssemblyReference.cache
