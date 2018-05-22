@@ -12,6 +12,7 @@ namespace ModelSoure.DataDAL
 {
     public class EFHelp<T> : IEFHelp<T> where T : class, new()
     {
+        //Z.EntityFramework.Extensions.LicenseManager.AddLicense("87;100-LCT", "00B049690098A61E5DE33CC6617C7169");
 
         public static readonly DbContext db = new DataModelEntities();
 

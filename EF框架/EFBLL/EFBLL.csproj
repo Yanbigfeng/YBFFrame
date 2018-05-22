@@ -46,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EF框架\Model\ModelSoure.csproj">
+    <ProjectReference Include="..\Model\ModelSoure.csproj">
       <Project>{fa0232fc-3483-4332-9dd6-2b45f8030a2d}</Project>
       <Name>ModelSoure</Name>
     </ProjectReference>

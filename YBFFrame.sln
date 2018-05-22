@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4DE072
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassHelp", "ClassHelp\ClassHelp.csproj", "{7BE022E5-8B2F-4D0B-8B83-D3D92911D03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBLL", "EFBLL\EFBLL.csproj", "{3677B2E4-758D-4F55-8283-6A1179A26A45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFBLL", "EF框架\EFBLL\EFBLL.csproj", "{3677B2E4-758D-4F55-8283-6A1179A26A45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

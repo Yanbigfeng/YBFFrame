@@ -13,3 +13,4 @@ E:\线下处理项目\YBFFrame\ADO三层架构\Z_DataBase\bin\Debug\DataBase.pdb
 E:\线下处理项目\YBFFrame\ADO三层架构\Z_DataBase\obj\Debug\4-DataBase.csproj.CoreCompileInputs.cache
 E:\线下处理项目\YBFFrame\ADO三层架构\Z_DataBase\obj\Debug\DataBase.dll
 E:\线下处理项目\YBFFrame\ADO三层架构\Z_DataBase\obj\Debug\DataBase.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\Z_DataBase\obj\Debug\4-DataBase.csprojResolveAssemblyReference.cache
