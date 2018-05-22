@@ -3,3 +3,9 @@ E:\线下处理项目\框架搭建\YBFFrame\Model\bin\Debug\Model.dll
 E:\线下处理项目\框架搭建\YBFFrame\Model\bin\Debug\Model.pdb
 E:\线下处理项目\框架搭建\YBFFrame\Model\obj\Debug\Model.dll
 E:\线下处理项目\框架搭建\YBFFrame\Model\obj\Debug\Model.pdb
+E:\线下处理项目\YBFFrame\Model\bin\Debug\Model.dll
+E:\线下处理项目\YBFFrame\Model\bin\Debug\Model.pdb
+E:\线下处理项目\YBFFrame\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\线下处理项目\YBFFrame\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\线下处理项目\YBFFrame\Model\obj\Debug\Model.dll
+E:\线下处理项目\YBFFrame\Model\obj\Debug\Model.pdb

@@ -38,3 +38,14 @@ E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\3-DataAccess\bin\Deb
 E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\Model.pdb
 E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\DataBase.pdb
 E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\MySql.Data.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\3-DataAccess.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\3-DataAccess.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\DataBase.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\Model.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\MySql.Data.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\Model.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\bin\Debug\DataBase.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\obj\Debug\3-DataAccess.csprojResolveAssemblyReference.cache
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\obj\Debug\3-DataAccess.csproj.CoreCompileInputs.cache
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\obj\Debug\3-DataAccess.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\3-DataAccess\obj\Debug\3-DataAccess.pdb

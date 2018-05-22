@@ -53,8 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataHelp\EFHelp.cs" />
-    <Compile Include="DataHelp\IEFHelp.cs" />
+    <Compile Include="DataDAL\EFHelp.cs" />
+    <Compile Include="IDataDAL\IEFHelp.cs" />
     <Compile Include="DataSoure\Entity.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

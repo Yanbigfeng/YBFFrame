@@ -46,3 +46,16 @@ E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\2-Business\bin\Debug
 E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\2-Business\bin\Debug\Model.pdb
 E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\2-Business\bin\Debug\DataBase.pdb
 E:\线下处理项目\框架搭建\YBFFrame\ADO三层架构\2-Business\bin\Debug\MySql.Data.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\2-Business.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\2-Business.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\3-DataAccess.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\Model.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\MySql.Data.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\DataBase.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\Model.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\3-DataAccess.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\bin\Debug\DataBase.pdb
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\obj\Debug\2-Business.csprojResolveAssemblyReference.cache
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\obj\Debug\2-Business.csproj.CoreCompileInputs.cache
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\obj\Debug\2-Business.dll
+E:\线下处理项目\YBFFrame\ADO三层架构\2-Business\obj\Debug\2-Business.pdb

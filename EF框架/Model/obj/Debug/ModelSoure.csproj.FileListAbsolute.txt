@@ -19,3 +19,11 @@ E:\线下处理项目\框架搭建\YBFFrame\EF框架\Model\bin\Debug\MySql.Data.
 E:\线下处理项目\框架搭建\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.csproj.CoreCompileInputs.cache
 E:\线下处理项目\框架搭建\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.dll
 E:\线下处理项目\框架搭建\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.pdb
+E:\线下处理项目\YBFFrame\EF框架\Model\bin\Debug\ModelSoure.dll.config
+E:\线下处理项目\YBFFrame\EF框架\Model\bin\Debug\ModelSoure.dll
+E:\线下处理项目\YBFFrame\EF框架\Model\bin\Debug\ModelSoure.pdb
+E:\线下处理项目\YBFFrame\EF框架\Model\bin\Debug\MySql.Data.dll
+E:\线下处理项目\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.csprojResolveAssemblyReference.cache
+E:\线下处理项目\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.csproj.CoreCompileInputs.cache
+E:\线下处理项目\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.dll
+E:\线下处理项目\YBFFrame\EF框架\Model\obj\Debug\ModelSoure.pdb

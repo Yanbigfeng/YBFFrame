@@ -4,3 +4,9 @@ E:\线下处理项目\框架搭建\YBFFrame\ClassHelp\bin\Debug\ClassHelp.pdb
 E:\线下处理项目\框架搭建\YBFFrame\ClassHelp\obj\Debug\ClassHelp.dll
 E:\线下处理项目\框架搭建\YBFFrame\ClassHelp\obj\Debug\ClassHelp.pdb
 E:\线下处理项目\框架搭建\YBFFrame\ClassHelp\obj\Debug\ClassHelp.csprojResolveAssemblyReference.cache
+E:\线下处理项目\YBFFrame\ClassHelp\bin\Debug\ClassHelp.dll
+E:\线下处理项目\YBFFrame\ClassHelp\bin\Debug\ClassHelp.pdb
+E:\线下处理项目\YBFFrame\ClassHelp\obj\Debug\ClassHelp.csprojResolveAssemblyReference.cache
+E:\线下处理项目\YBFFrame\ClassHelp\obj\Debug\ClassHelp.csproj.CoreCompileInputs.cache
+E:\线下处理项目\YBFFrame\ClassHelp\obj\Debug\ClassHelp.dll
+E:\线下处理项目\YBFFrame\ClassHelp\obj\Debug\ClassHelp.pdb

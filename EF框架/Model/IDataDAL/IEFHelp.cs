@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 using System.Linq.Expressions;
 using System.Data.SqlClient;
 
-namespace ModelSoure.DataHelp
+namespace ModelSoure.IDataDAL
 {
-     interface IEFHelp<T>
+    public interface IEFHelp<T>
     {
         #region 0.数据源
-         IQueryable<T> Entities
+        IQueryable<T> Entities
         {
             get;
-          
+
         }
         #endregion
 
         #region 1.新增
-         int Add(T model);
+        int Add(T model);
         #endregion
 
         #region 2.删除
-         int Del(T model);
+        int Del(T model);
         #endregion
 
         #region 3.修改
@@ -71,6 +71,15 @@ namespace ModelSoure.DataHelp
         #region B.执行查询操作
         List<T> ExecuteQuery<T>(string sql, params SqlParameter[] pars);
 
+        #endregion
+
+        //大数据插入事物分离
+        #region M.添加
+        int AddMore(T model);
+        #endregion
+
+        #region M1.批量处理SaveChange()
+        int SaveChangeMore();
         #endregion
     }
 

@@ -6,8 +6,9 @@ using System.Linq.Expressions;
 using System.Data.SqlClient;
 using ModelSoure.DataSoure;
 using System.Data.Entity.Core.Objects;
+using ModelSoure.IDataDAL;
 
-namespace ModelSoure.DataHelp
+namespace ModelSoure.DataDAL
 {
     public class EFHelp<T> : IEFHelp<T> where T : class, new()
     {
