@@ -25,7 +25,7 @@ namespace ModelSoure.DataHelp
         #region ObjectContext方式
         public ObjectContext objectContext()
         {
-            ObjectContext objectContext= new ObjectContext("name=DataModelEntities");
+            ObjectContext objectContext = new ObjectContext("name=DataModelEntities");
             objectContext.DefaultContainerName = "DataModelEntities";
             return objectContext; ;
         }
@@ -148,5 +148,27 @@ namespace ModelSoure.DataHelp
         }
         #endregion
 
+        //大数据插入事物分离
+        #region M.添加
+        public int AddMore(T model)
+        {
+            db.Configuration.AutoDetectChangesEnabled = false;
+            int count = -1;
+            DbSet<T> dst = db.Set<T>();
+            dst.Add(model);
+            //db.Entry(model).State = EntityState.Modified;
+            return count = db.SaveChanges();
+        }
+        #endregion
+
+        #region M1.批量处理SaveChange()
+        public int SaveChangeMore()
+        {
+            int falg = db.SaveChanges();
+            db.Configuration.AutoDetectChangesEnabled = true;
+            db.Configuration.ValidateOnSaveEnabled = true;
+            return falg;
+        }
+        #endregion
     }
 }
